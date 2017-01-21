@@ -55,7 +55,7 @@ $data = array(
   'wallet_address' => 'correct_wallet_address'
 );
 
-curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
