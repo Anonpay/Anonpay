@@ -55,7 +55,10 @@ $data = array(
   'notification_url' => 'http://Mydomain.com/notificationUrl',
   'amount' => 21.38,
   'description' => 'Order number: #12475',
-  'wallet_address' => 'correct_wallet_address'
+  'wallet_address' => 'correct_wallet_address',
+  'firstname' => 'Adam',
+  'lastname' => 'Nowak',
+  'email' => 'email@email.com'
 );
 
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
