@@ -11,6 +11,9 @@ Input parameters:
 * amount - transaction amount in your local currency (available PLN)
 * description - your personal description (can be used to identify the transaction)
 * wallet address - target wallet address on which you want to receive Bitcoins
+* firstname - customer first name
+* lastname - customer last name
+* email - customer email
 
 Output parameters:
 
