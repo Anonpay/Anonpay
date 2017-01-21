@@ -1,11 +1,12 @@
 # Anonpay
 
+
 ## /request/main
 
 Input parameters:
 
 
-* public_key - your public key 
+* public_key - your public key (API key available after signing up at http://anonpay.org)
 * notification_url - Payment notification will be send to this URL.
 * amount - transaction amount in your local currency (available PLN)
 * description - your personal description (can be used to identify the transaction)
