@@ -14,6 +14,7 @@ Input parameters:
 * firstname - customer first name
 * lastname - customer last name
 * email - customer email
+* test - available values : 0,1. Default value - 0. In case of test = 1, test transaction is being added, test payment link being generated and test notification is being send.
 
 Output parameters:
 
