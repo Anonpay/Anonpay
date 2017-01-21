@@ -44,7 +44,7 @@ Post parameters:
 ### Send a request
 
 ```
-$ch = curl_init('https://anonpay.com/request/main');
+$ch = curl_init('https://anonpay.org/request/main');
 curl_setopt($ch, CURLOPT_POST, true);
 
 $data = array(
