@@ -22,6 +22,16 @@ Output parameters:
 * payment_link - generated payment link for user
 * security_code - generated confirmation hash md5($amount.$unique_hash.$private$key)
 
+## Error codes
+* 101 - incorrect first name
+* 102 - incorrect last name
+* 103 - incorrect email
+* 104 - incorrect amount
+* 105 - incorrect notification url
+* 106 - incorrect transaction description
+* 107 - incorrect wallet address
+* 108 - incorrect api key
+
 ## notifications
 
 Notifications will be send using the POST method to the URL that was provided in /request/main step.
