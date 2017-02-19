@@ -8,7 +8,7 @@ Input parameters:
 
 * public_key - your public key (API key available after signing up at http://anonpay.org)
 * notification_url - Payment notification will be send to this URL.
-* amount - transaction amount in your local currency (available PLN)
+* amount - transaction amount in your local currency (available PLN) (min 3 PLN)
 * description - your personal description (can be used to identify the transaction)
 * wallet address - target wallet address on which you want to receive Bitcoins
 * firstname - customer first name
