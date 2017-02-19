@@ -31,6 +31,7 @@ Output parameters:
 * 106 - incorrect transaction description
 * 107 - incorrect wallet address
 * 108 - incorrect api key
+* 109 - minimum transaction amount is 3 PLN
 
 ## notifications
 
