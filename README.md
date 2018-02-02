@@ -8,13 +8,13 @@ Input parameters:
 
 * public_key - your public key (API key available after signing up at http://anonpay.org)
 * notification_url - Payment notification will be send to this URL.
-* amount - transaction amount in your local currency (available PLN) (min 3 PLN)
+* amount - transaction amount in your local currency (available PLN) (min 100 PLN)
 * description - your personal description (can be used to identify the transaction)
-* wallet address - target wallet address on which you want to receive Bitcoins
+* wallet address - target wallet address on which you want to receive your coins (remember to put correct address corresponding to the currency you provided)
 * firstname - customer first name
 * lastname - customer last name
 * email - customer email
-* currency - currency you want to receive (BTC, LTC, ETH, BCC available)
+* currency - currency you want to receive (BTC, LTC, ETH, BCC) -> BTC default
 * test - available values : 0,1. Default value - 0. In case of test = 1, test transaction is being added, test payment link being generated and test notification is being send after payment is submitted.
 
 Output parameters:
@@ -44,7 +44,7 @@ Post parameters:
 * commission - transaction commission amount
 * unique_hash - unique transaction hash
 * description - personal description sent with /request/main function
-* btc - amount of btc after exchange (the exact value will be send when the status is 4 or 5).
+* btc - amount of btc after exchange (the exact value will be send when the status is 4 or 5). When different currency is sent, this field will return the amount in the correnct currency.
 * status - current transaction status
 
 ```
